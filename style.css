@@ -1,0 +1,24 @@
+span {
+    display: inline-block;
+}
+#pic {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+#pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+span i {
+    padding: 25px;
+}
+.small-image {
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+}
+body {
+    text-align: center;
+}
