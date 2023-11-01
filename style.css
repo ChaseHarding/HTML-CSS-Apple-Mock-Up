@@ -1,6 +1,21 @@
 span {
     display: inline-block;
 }
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    font-size: 100px;
+    font-weight: bolder;
+
+}
 #pic {
     width: 100%;
     max-height: 400px;
@@ -11,14 +26,24 @@ span {
     height: auto;
     display: block;
 }
-span i {
-    padding: 25px;
+#icons {
+    text-align: center;
 }
+#icons span {
+    display: inline-block;
+    margin: 0 10px;
+}
+
 .small-image {
     width: 100px;
     height: 100px;
     padding: 25px;
 }
+
 body {
     text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1496307653780-42ee777d4833?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
